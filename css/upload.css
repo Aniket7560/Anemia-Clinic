@@ -1,0 +1,293 @@
+body {
+    background: url('../img/bg-banner.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 650px;
+    position: relative;
+}
+
+.bg-color {
+    background-color: RGBA(13, 70, 83, 0.78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-logo img {
+    display: inline-block;
+}
+
+/* .navbar-default {
+    background-color: transparent;
+    border: 0px;
+}
+
+.navbar-header {
+    text-align: center;
+    width: 100%;
+} */
+
+.Com_Name {
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: 0px;
+ 
+}
+.navbar {
+    border-radius: 0px;
+}
+.navbar-default {
+    background-color: #fff;
+    padding: 20px 0;
+    transition: all 0.3s;
+}
+.navbar-default {
+    background-color: transparent;
+    border: 0px;
+}
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-brand
+{
+	font-family: 'Chewy', cursive;
+	font-size: 32px;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #EA6045;
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+		background: rgba(28,74,90, 0.9);
+	}
+}
+
+.top-nav-collapse {
+    padding: 0;
+    background: rgba(28,74,90, 0.9);
+}
+
+.white, .white:hover, .white:focus
+{
+	color: #fff;
+	width: 100% !important;
+}
+.block
+{
+	display: block;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(12, 184, 182, 0.21);
+}
+.navbar-default .navbar-nav > li > a
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+{
+	color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(12, 184, 182, 0.21);
+}
+.affix {
+    background-color: #ffffff !important;
+}
+.affix .navbar-nav > li > a:hover, .affix .navbar-nav > li > a:focus
+{
+    background-color: rgba(12, 184, 182) !important;
+}
+#banner{
+	background: url('../img/bg-banner.jpg') no-repeat fixed;
+	background-size: cover;
+	min-height: 650px;
+	position: relative;
+}
+@media (max-width: 1024px){
+  #banner{
+    background-attachment: scroll;
+  }
+}
+.bg-color{
+	background-color: RGBA(13, 70, 83, 0.78);
+	min-height: 650px;
+}
+.banner-info{
+	padding-top: 190px;
+}
+.banner-logo img{
+	display: inline-block;
+}
+.banner-text{
+	color: #fff;
+}
+.banner-text h1{
+	font-family: 'Candal', sans-serif;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding-bottom:15px;
+}
+.btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
+	margin-top: 30px;
+	padding: 10px 20px;
+	font-size: 12px;
+	background-color: rgba(12, 184, 182, 0.91);
+	border-radius: 3px;
+	color: #fff;
+}
+.overlay-detail a i {
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    font-size: 38px;
+    color: #fff;
+    margin: 0 auto;
+}
+.text-primary i{
+    padding-top: 8px;
+    display: inline-block;
+}
+
+/* .upload-button {
+    background-color: #1549f2; 
+    color: #ffffff; 
+    padding: 10px 20px;
+} */
+
+
+.login-box {
+    border: 1px solid #ccc;
+    background-color: #809bf4; 
+    padding: 10px 15px; /* Padding inside the box */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  
+  .login-box a {
+    text-decoration: none; 
+    color: white; 
+  }
+  
+  .login-box a:hover {
+    color: #555; /* Link text color on hover */
+  }
+  
+  
+
+
+
+.image-upload-container {
+    background-color: #f2f2f2;
+    /* Background color of the container */
+    border: 1px solid #ccc;
+    /* Border color and width */
+    padding: 20px;
+    /* Padding around the container */
+    border-radius: 10px;
+    /* Border radius for rounded corners */
+    margin: 0 auto;
+    text-align: left;
+    /* Reset text alignment */
+    max-width: 400px;
+}
+
+.file-input {
+    width: 200px;
+    /* Adjust width as needed */
+    height: 40px;
+    /* Adjust height as needed */
+    margin-bottom: 10px;
+    /* Add spacing between elements */
+}
+
+.final-btn {
+    color: white;
+    background-color: blue;
+    width: 150px;
+    /* Adjust width as needed */
+    height: 40px;
+    /* Adjust height as needed */
+    font-size: 16px;
+
+}
+
+/* @media (max-width: 768px) {
+    .navbar-default .navbar-toggle {
+        margin: 14px 15px 14px 0;
+    }
+
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:active {
+        outline: none;
+    }
+
+    .navbar-default .navbar-collapse {
+        background: rgba(28,74,90, 0.9);
+        padding: 10px;
+    }
+
+    .navbar-default .navbar-nav > li {
+        display: block;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding: 10px 15px;
+        line-height: 20px;
+        font-size: 16px;
+    }
+} */
+
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-toggle {
+        margin-right: 0; /* Remove right margin for better alignment */
+        margin-top: 14px; /* Adjust top margin for better vertical alignment */
+    }
+
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:active {
+        outline: none; /* Remove outline when toggle button is focused or active */
+    }
+
+    .navbar-default .navbar-collapse {
+        background: rgba(28,74,90, 0.9); /* Background color for collapsed navbar */
+        padding: 10px; /* Padding inside collapsed navbar */
+    }
+
+    .navbar-default .navbar-nav > li {
+        display: block;
+        float: none;
+        margin-bottom: 10px; /* Add margin between navbar items */
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding: 10px 15px; /* Adjust padding of navbar links */
+        line-height: 20px;
+        font-size: 16px;
+    }
+}
+
+/* Additional adjustments */
+.navbar-default .navbar-brand {
+    padding: 15px 0; /* Add padding to navbar brand for better spacing */
+    display: inline-block; /* Ensure navbar brand is displayed inline */
+}
